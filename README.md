@@ -10,12 +10,12 @@ Jump back to the directory where yazi was started.
 
 ### With `ya pack`
 ```bash
-ya pack -a moto-taka/yazi-start-dir
+ya pkg add moto-taka/start-dir
 ```
 
 ### Manual
 ```bash
-git clone https://github.com/moto-taka/yazi-start-dir.git ~/.config/yazi/plugins/yazi-start-dir.yazi
+git clone https://github.com/moto-taka/start-dir.yazi.git ~/.config/yazi/plugins/start-dir.yazi.yazi
 ```
 
 ## Setup
@@ -26,7 +26,7 @@ Add to `~/.config/yazi/keymap.toml`:
 ```toml
 [[mgr.prepend_keymap]]
 on = ["g", "s"]
-run = "plugin yazi-start-dir"
+run = "plugin start-dir"
 desc = "Go to start directory"
 ```
 
