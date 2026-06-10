@@ -15,7 +15,7 @@ ya pkg add moto-taka/start-dir
 
 ### Manual
 ```bash
-git clone https://github.com/moto-taka/start-dir.yazi.git ~/.config/yazi/plugins/start-dir.yazi.yazi
+git clone https://github.com/moto-taka/start-dir.yazi.git ~/.config/yazi/plugins/start-dir.yazi
 ```
 
 ## Setup
