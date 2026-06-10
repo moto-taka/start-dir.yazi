@@ -3,7 +3,7 @@ local M = {}
 function M:entry()
   local dir = os.getenv("YAZI_START_DIR")
   if dir then
-    ya.mgr_emit("cd", { dir })
+    ya.emit("cd", { dir })
   end
 end
 
